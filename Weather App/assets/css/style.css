@@ -53,6 +53,9 @@ body {
     border: 0;
     cursor: pointer;
 }
+.card__search button:hover {
+    background: #dad9d9;
+}
 
 .card__search img {
     position: absolute;
@@ -70,7 +73,7 @@ body {
     font-weight: 500;
 }
 
-.card_title {
+.card__title {
     margin-top: 20px;
     font-size: 35px;
     font-weight: 450;
@@ -103,6 +106,6 @@ body {
 
 .card__data h2 {
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
