@@ -1,3 +1,5 @@
+
+
 const apiKey = API_CONFIG.weatherApiKey;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
@@ -11,10 +13,12 @@ async function checkWeather(city) {
   try {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
     const data = await response.json();
+     console.log(data);
     if (data.cod === "404") {
       alert("City not found!");
       return;
     }
+    
     if (data.weather[0].main == "Clouds") {
         weatherIcon.src = "./assets/img/clouds.png";
     }
