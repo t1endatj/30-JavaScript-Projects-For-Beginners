@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List (basic)</title>
+    <title>To Do List(basic)</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     
@@ -16,14 +16,21 @@
             <img src="./assets/img/icon.png" alt="">
         </div>
 
-        <form action="" class="submit-box">
+        <div action="" class="submit-box">
             <input
              type="text"
              placeholder="Add your task"
              autocomplete="off"
+             id="input-box"
             >
-            <button class="submit">Add</button>
-        </form>
+            <button onclick="addTask()" class="submit">Add</button>
+        </div>
+
+        <ul id="list-container">
+            <!-- <li class="checked">task1</li>
+            <li>task2</li>
+            <li>task3</li> -->
+        </ul>
     </div>
     
     <script src="./script.js"></script>
