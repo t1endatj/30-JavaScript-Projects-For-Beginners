@@ -8,9 +8,6 @@ A simple and elegant to-do list application built with vanilla JavaScript that h
 - ✅ Mark tasks as completed/uncompleted
 - ❌ Delete tasks you no longer need
 - 💾 Automatic data persistence (saves to browser storage)
-- 📱 Responsive design that works on all devices
-- 🎨 Clean and modern user interface
-
 
 ## Setup Instructions
 
