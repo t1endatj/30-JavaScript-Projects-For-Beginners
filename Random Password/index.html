@@ -17,14 +17,15 @@
         </div>
         <form action="">
             <input 
+            id="password"
             type="text"
             placeholder="Password"
             autocomplete="off"
             >
-            <img src="./assets/img/copy.png" alt="">
+            <img src="./assets/img/copy.png" alt="" onclick="copyPassword()">
             <div class="submit">
                 <img src="./assets/img/generate.png" alt="">
-                <button>Generate Password</button>
+                <button type="button" onclick="createPassword()" >Generate Password</button>
             </div>
         </form>
     </div>    

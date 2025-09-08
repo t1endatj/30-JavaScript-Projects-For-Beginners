@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif !important;
+    box-sizing: border-box;
 }
 
 body {
-    width: 470px;
+    width: 100vh;
     background: #050948;
 }
 
@@ -14,9 +15,79 @@ body {
 }
 
 .title h2:first-child {
+    font-size: 50px;
     color: #fff;
 }
 
 .title h2:nth-child(2) {
-    color: #457d02;
+    font-size: 50px;
+    color: #78c51a;
+    margin-top: 5px;
+    position: relative;
 }
+
+.title h2:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 468px;
+    height: 5px;
+    background-color: #78c51a;
+}
+
+form {
+    margin-top: 30px;
+    position: relative;
+}
+
+form > img {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    padding: 13px;
+}
+
+form > img:hover {
+    background: #cac6c6;
+    border-radius: 2px;
+}
+
+form input {
+    font-size: 20px;
+    padding-left: 10px;
+    width: 100%;
+    height: 70px;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+}
+
+.submit {
+    position: relative;
+    margin-top: 20px;
+}
+
+.submit button {
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #2f9906;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.submit img {
+    height: 35px;
+    width:35px;   
+    position: absolute;
+    top: 8px;
+    left: 14px;
+}
+
