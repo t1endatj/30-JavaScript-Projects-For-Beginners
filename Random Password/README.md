@@ -1,74 +1,37 @@
-# To-Do List (Basic) ✅
+# Random Password Generator 🔐
 
-A simple and elegant to-do list application built with vanilla JavaScript that helps you organize your daily tasks with local storage persistence.
-
-## Features
-
-- ➕ Add new tasks with ease
-- ✅ Mark tasks as completed/uncompleted
-- ❌ Delete tasks you no longer need
-- 💾 Automatic data persistence (saves to browser storage)
-- 📱 Responsive design that works on all devices
-- 🎨 Clean and modern user interface
-
-
-## Setup Instructions
-
-### Quick Start
-1. Clone or download this repository
-2. Open `index.html` in your web browser
-3. Start adding your tasks!
-
+Generate strong, secure passwords instantly!
 
 ## How to Use
 
-### Adding Tasks
-1. Type your task in the input field
-2. Click the "Add" button or press Enter
-3. Your task will appear in the list below
+1. **Open** `index.html` in your browser
+2. **Click** "Generate Password" button  
+3. **Copy** the password by clicking the copy icon
+4. **Use** your new secure password!
 
-### Managing Tasks
-- **Mark as Complete**: Click on any task text to mark it as completed
-- **Mark as Incomplete**: Click on a completed task to mark it as incomplete
-- **Delete Task**: Click the "×" button next to any task to delete it
+## Features
 
-### Data Persistence
-- All your tasks are automatically saved to your browser's local storage
-- Tasks will persist even after closing and reopening the browser
-- Data is tied to your specific browser and domain
+- Creates 12-character strong passwords
+- Includes letters, numbers, and symbols
+- One-click copy to clipboard
+- Works offline in any browser
 
-## File Structure
+## Security Tips
 
-```
-To Do List (basic)/
-├── index.html          # Main HTML file
-├── script.js           # JavaScript functionality
-├── README.md          # This file
-└── assets/
-    ├── css/
-    │   ├── style.css   # Main styles
-    │   └── reset.css   # CSS reset
-    ├── img/
-    │   ├── icon.png    # App icon
-    │   ├── checked.png # Checked task icon
-    │   └── unchecked.png # Unchecked task icon
-    └── favicon/        # Favicon files
-```
+✅ Use different passwords for each account  
+✅ Don't reuse passwords  
+✅ Generate new passwords regularly  
+✅ Keep passwords private
 
-## Technologies Used
+## Troubleshooting
 
-- **HTML5** - Structure and semantic markup
-- **CSS3** - Styling with modern features
-- **Vanilla JavaScript** - Core functionality
+**Not working?** 
+- Enable JavaScript in your browser
+- Try refreshing the page
 
+**Can't copy?**
+- Click the copy icon next to the password
+- Some browsers may ask for permission
 
-## Future Enhancements
-
-- [ ] Dark mode toggle
-- [ ] Task categories
-- [ ] Drag and drop reordering
-- [ ] Task due dates
-- [ ] Export to different formats
-- [ ] Keyboard shortcuts
-- [ ] Task search functionality
+---
 
