@@ -6,6 +6,10 @@
 
 body {
     background: #3f4248;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -42,4 +46,35 @@ button {
     color: #fff;
     cursor: pointer;
     margin-top: 30px;
+}
+
+.imgBox {
+    margin: 30px auto 0 auto;
+    width: 60%;
+    min-height: 150px;
+    height: auto;
+    background: #ffffff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#qrImg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .imgBox {
+        width: 80%;
+    }
 }
